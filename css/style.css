@@ -60,29 +60,29 @@
 }
 
 .page-section#home {
-  background: url(http://unsplash.com/photos/Rdsc2L517iQ/download) bottom center no-repeat;
+  background: url(back1.jpg) bottom center no-repeat;
   background-size: 100% 100%;
 }
 .page-section#projects {
-  background: url(http://unsplash.com/photos/67t2GJcD5PI/download) bottom center no-repeat;
+  background: url(back2.jpeg) bottom center no-repeat;
   background-size: 100% 100%;
   
 }
 
 .page-section#cv {
-  background: url(http://unsplash.com/photos/rNcSTzp0Xv8/download) bottom center no-repeat;
+  background: url(back3.jpeg) bottom center no-repeat;
    background-size: 100% 100%;
   
 }
 
 .page-section#partners {
-  background: url(http://unsplash.com/photos/_4Ib-a8g9aA/download) bottom center no-repeat;
+  background: url(back4.jpeg) bottom center no-repeat;
     background-size: 100% 100%;
   
 }
 
 .page-section#contact {
-  background: url(http://unsplash.com/photos/hkdYTy3jCyY/download) bottom center no-repeat;
+  background: url(back5.jpeg) bottom center no-repeat;
     background-size: 100% 100%;
   
 }
