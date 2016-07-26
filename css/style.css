@@ -1,0 +1,113 @@
+.header {
+  position:fixed;
+  width: 100%;
+  background: #222;
+  z-index: 10;
+}
+
+.header .navbar-brand {
+  font-weight: 900;
+}
+
+.header .navbar {
+  margin: 0;
+  border: none;
+}
+
+
+.page-section {
+  width: 100%;
+  min-height: 800px;
+  padding: 50px;
+  border-bottom: 0px;
+}
+
+.page.section h1 {
+  font-size: 4em;
+  margin: 50px 0;
+  
+}
+
+.page-section h1 span {
+  font-weight: 200;
+}
+
+.page-section h2 {
+  color: #FFF;
+  font-size: 3em;
+  font-weight: 900;
+  margin: 0 0 30px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.page-section p {
+  font-size: 1.2em;
+  font-weight: 200;
+  margin: 0 25% 20px 0;
+}
+
+.page-section p.lead {
+  font-size: 1.8em;
+}
+
+.page-section p.caption {
+  color: #fff;
+  padding: 20px;
+  background-color: grey;
+  opacity: 0.6;
+  text-shadow: 1px 1px 1px #000;
+  
+}
+
+.page-section#home {
+  background: url(http://unsplash.com/photos/Rdsc2L517iQ/download) bottom center no-repeat;
+  background-size: 100% 100%;
+}
+.page-section#projects {
+  background: url(http://unsplash.com/photos/67t2GJcD5PI/download) bottom center no-repeat;
+  background-size: 100% 100%;
+  
+}
+
+.page-section#cv {
+  background: url(http://unsplash.com/photos/rNcSTzp0Xv8/download) bottom center no-repeat;
+   background-size: 100% 100%;
+  
+}
+
+.page-section#partners {
+  background: url(http://unsplash.com/photos/_4Ib-a8g9aA/download) bottom center no-repeat;
+    background-size: 100% 100%;
+  
+}
+
+.page-section#contact {
+  background: url(http://unsplash.com/photos/hkdYTy3jCyY/download) bottom center no-repeat;
+    background-size: 100% 100%;
+  
+}
+.footer {
+  background-color: #fff;
+    
+}
+
+.footer p {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media (max-width 480px) {
+  .page-section h1 {
+    font-size: 1em;
+     }
+  {
+    .page-section h2 {
+      font-size: 2em;
+    }
+    {
+      page-section p {
+        font-size: 1em;
+        margin: 0 0 20px;
+      }
+    }
+  
