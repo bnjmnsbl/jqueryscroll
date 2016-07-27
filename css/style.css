@@ -1,23 +1,26 @@
 .header {
   position:fixed;
   width: 100%;
-  background: #222;
+  background: #000;
+  background-color: white;
   z-index: 10;
 }
 
 .header .navbar-brand {
-  font-weight: 900;
+
 }
 
 .header .navbar {
   margin: 0;
-  border: none;
+ border: none; 
+
 }
+
 
 
 .page-section {
   width: 100%;
-  min-height: 800px;
+  min-height: 1000px;
   padding: 50px;
   border-bottom: 0px;
 }
@@ -30,13 +33,14 @@
 
 .page-section h1 span {
   font-weight: 200;
+
 }
 
 .page-section h2 {
   color: #FFF;
   font-size: 3em;
   font-weight: 900;
-  margin: 0 0 30px;
+  margin: 20 30 30px;
   text-shadow: 2px 2px 2px #000;
 }
 
@@ -54,26 +58,33 @@
   color: #fff;
   padding: 20px;
   background-color: grey;
-  opacity: 0.6;
+  opacity: 1;
   text-shadow: 1px 1px 1px #000;
   
 }
 
 .page-section#home {
-  background: url(back1.jpg) bottom center no-repeat;
+  background-color: #ff0040;
   background-size: 100% 100%;
 }
 .page-section#projects {
-  background: url(back2.jpeg) bottom center no-repeat;
+  background-color: #1E3791;
   background-size: 100% 100%;
   
 }
 
+
 .page-section#cv {
-  background: url(back3.jpeg) bottom center no-repeat;
+   background-color: #40b3ff;
    background-size: 100% 100%;
-  
+ }
+
+.img-holder {
+height: 200px;
+overflow:hidden;
 }
+
+
 
 .page-section#partners {
   background: url(back4.jpeg) bottom center no-repeat;
