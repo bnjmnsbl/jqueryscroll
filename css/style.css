@@ -64,11 +64,12 @@
 }
 
 .page-section#home {
-  background-color: #ff0040;
+  background-color: #FF0040;
+  background-opacity: 0.6;
   background-size: 100% 100%;
 }
 .page-section#projects {
-  background-color: #1E3791;
+  background-color: #1E3791;;
   background-size: 100% 100%;
   
 }
