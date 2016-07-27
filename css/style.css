@@ -2,20 +2,25 @@
   position:fixed;
   width: 100%;
   background: #000;
-  background-color: white;
+  background-color: #2e91d2;
+  border: solid;
+  
   z-index: 10;
 }
 
 .header .navbar-brand {
-
+color: #FFF;
 }
 
 .header .navbar {
   margin: 0;
- border: none; 
-
+  border: none; 
 }
 
+.header .scroll-link {
+
+color: white;
+}
 
 
 .page-section {
@@ -23,6 +28,8 @@
   min-height: 1000px;
   padding: 50px;
   border-bottom: 0px;
+  
+
 }
 
 .page.section h1 {
@@ -32,11 +39,11 @@
 }
 
 .page-section h1 span {
-  font-weight: 200;
-
+  font-weight: 300;
 }
 
 .page-section h2 {
+
   color: #FFF;
   font-size: 3em;
   font-weight: 900;
@@ -47,7 +54,7 @@
 .page-section p {
   font-size: 1.2em;
   font-weight: 200;
-  margin: 0 25% 20px 0;
+  margin: 40px 25% 20px 0;
 }
 
 .page-section p.lead {
@@ -57,21 +64,27 @@
 .page-section p.caption {
   color: #fff;
   padding: 20px;
-  background-color: grey;
-  opacity: 1;
+  background-color: #1E3791;
+  opacity: 0.8;
   text-shadow: 1px 1px 1px #000;
   
 }
 
 .page-section#home {
-  background-color: #FF0040;
-  background-opacity: 0.6;
-  background-size: 100% 100%;
+/*  background-color: #FF0040; */
+background: url(TSB.svg);
+    background-size: 100% 100%;
 }
 .page-section#projects {
-  background-color: #1E3791;;
+  background-color: #1E3791;
   background-size: 100% 100%;
   
+}
+
+
+.img-holder {
+height: 300px;
+overflow:hidden;
 }
 
 
@@ -79,12 +92,6 @@
    background-color: #40b3ff;
    background-size: 100% 100%;
  }
-
-.img-holder {
-height: 200px;
-overflow:hidden;
-}
-
 
 
 .page-section#partners {
@@ -123,3 +130,4 @@ overflow:hidden;
       }
     }
   
+
