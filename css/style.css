@@ -1,9 +1,26 @@
+@font-face {
+  font-family: 'ClanOT-Medium';
+  font-weight: 400;
+  src: url("../fonts/clanot-medium-webfont.eot");
+  src: url("../fonts/clanot-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/clanot-medium-webfont.woff") format("woff"), url("../fonts/clanot-medium-webfont.ttf") format("truetype"), url("../fonts/clanot-medium-webfont.svg#clanot_medium") format("svg"); }
+@font-face {
+  font-family: 'ClanOT-Book';
+  font-weight: 400;
+  src: url("../fonts/clanot-book-webfont.eot");
+  src: url("../fonts/clanot-book-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/clanot-book-webfont.woff") format("woff"), url("../fonts/clanot-book-webfont.ttf") format("truetype"), url("../fonts/clanot-book-webfont.svg#clanot_book") format("svg"); }
+@font-face {
+  font-family: 'TSB';
+  src: url("../fonts/TSB.eot?-9pwax");
+  src: url("../fonts/TSB.eot?#iefix-9pwax") format("embedded-opentype"), url("../fonts/TSB.woff?-9pwax") format("woff"), url("../fonts/TSB.ttf?-9pwax") format("truetype"), url("../fonts/TSB.svg?-9pwax#TSB") format("svg");
+  font-weight: 400; }
+
+
 .header {
   position:fixed;
   width: 100%;
   background: #000;
   background-color: #2e91d2;
-  border: solid;
+  border: none;
   
   z-index: 10;
 }
@@ -23,12 +40,13 @@ color: white;
 }
 
 
+
 .page-section {
   width: 100%;
   min-height: 1000px;
   padding: 50px;
   border-bottom: 0px;
-  
+  font-family: ClanOT-Book;
 
 }
 
@@ -44,11 +62,12 @@ color: white;
 
 .page-section h2 {
 
-  color: #FFF;
+  color: #1E3791;
+  font-family: ClanOT-Medium;
   font-size: 3em;
-  font-weight: 900;
+  font-weight: 500;
   margin: 20 30 30px;
-  text-shadow: 2px 2px 2px #000;
+  /*text-shadow: 2px 2px 2px #000;*/
 }
 
 .page-section p {
@@ -65,14 +84,20 @@ color: white;
   color: #fff;
   padding: 20px;
   background-color: #1E3791;
-  opacity: 0.8;
+  opacity: 0.9;
   text-shadow: 1px 1px 1px #000;
   
 }
 
+.page-section p.viz {
+padding: 20px;
+background-color: white;
+}
+
+
 .page-section#home {
 /*  background-color: #FF0040; */
-background: url(TSB.svg);
+background: url(TSB2.svg);
     background-size: 100% 100%;
 }
 .page-section#projects {
@@ -95,7 +120,7 @@ overflow:hidden;
 
 
 .page-section#partners {
-  background: url(back4.jpeg) bottom center no-repeat;
+  background-color: white /* url(back4.jpeg) bottom center no-repeat;*/
     background-size: 100% 100%;
   
 }
